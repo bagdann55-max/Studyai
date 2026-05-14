@@ -1,0 +1,8 @@
+{
+"name": "Smart Study AI PRO",
+"short_name": "StudyPRO",
+"start_url": "index.html",
+"display": "standalone",
+"background_color": "#0f172a",
+"theme_color": "#38bdf8"
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Smart Study AI PRO</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🚀 Smart Study AI PRO</h1>
+
+<input id="topic" placeholder="Тема (например: Тригонометрия)">
+
+<select id="difficulty">
+<option value="easy">Easy</option>
+<option value="medium">Medium</option>
+<option value="hard">Hard</option>
+</select>
+
+<button onclick="startTest()">Start Test</button>
+
+<div id="quiz"></div>
+
+<button onclick="checkTest()">Проверить</button>
+
+<h2 id="result"></h2>
+
+<button onclick="showLeaderboard()">📊 История</button>
+<div id="leaderboard"></div>
+
+</div>
+
+<script src="engine.js"></script>
+<script src="storage.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
